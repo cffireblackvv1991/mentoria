@@ -3,7 +3,7 @@
 // Mensaje de bienvenida
 Swal.fire("Repasando GitHub");
 
-let numeroUno = 30;
+let numeroUno = 10;
 let numeroDos = 20;
 
 // Evaluar condición y mostrar alerta
