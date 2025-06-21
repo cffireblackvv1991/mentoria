@@ -1,14 +1,22 @@
 
 
+// Mensaje de bienvenida
+Swal.fire("Repasando GitHub");
 
-console.log("repasando github");
-
-let numeroUno = 10;
+let numeroUno = 30;
 let numeroDos = 20;
 
-
+// Evaluar condición y mostrar alerta
 if (numeroUno > numeroDos) {
-    console.log("condicion verdadera");
-}else {
-    console.log("condicion falsa");
+  Swal.fire({
+    icon: 'success',
+    title: 'Resultado',
+    text: 'Condición verdadera'
+  });
+} else {
+  Swal.fire({
+    icon: 'info',
+    title: 'Resultado',
+    text: 'Condición falsa'
+  });
 }
